@@ -1,0 +1,13 @@
+# Example configuration file for nomad-event-logger
+# Copy this to $HOME/.nomad-event-logger.yaml and modify as needed
+
+nomad:
+  addr: http://localhost:4646
+  token: ""  # Optional: your Nomad ACL token
+
+sinks:
+  - stdout
+  # - file  # Uncomment to enable File sink
+
+file:
+  path: /tmp/nomad-events.json
