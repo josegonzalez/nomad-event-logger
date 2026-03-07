@@ -6,7 +6,7 @@ toolchain go1.24.5
 
 require (
 	github.com/hashicorp/nomad/api v0.0.0-20250807194732-5d8e8df7bd22
-	github.com/spf13/cobra v1.9.1
+	github.com/spf13/cobra v1.10.2
 	github.com/spf13/viper v1.21.0
 )
 
